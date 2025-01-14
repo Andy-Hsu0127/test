@@ -1,0 +1,105 @@
+/* quotation_app/static/css/custom.css */
+
+/* 增加卡片內部的間距 */
+.card-body {
+    padding: 1.5rem;
+}
+
+/* 調整表格字體大小 */
+table {
+    font-size: 0.9rem;
+}
+
+/* 調整按鈕大小 */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* 調整搜尋表單的按鈕高度一致 */
+.btn-group .btn {
+    height: 38px;
+}
+
+/* custom.css */
+
+/* 調整按鈕的間距 */
+.btn + .btn {
+    margin-left: 0.5rem;
+  }
+  
+  /* 自訂模態框標頭的顏色 */
+  .modal-header.bg-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+  }
+
+  .modal {
+    z-index: 1050; /* 高于遮罩层 */
+  }
+  .modal-backdrop {
+    z-index: 1040;
+  }
+  /* 調整表格文字 */
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  .modal {
+    display: block; /* 确保显示 */
+    opacity: 1;     /* 确保不透明 */
+}
+
+  
+  /* 搜尋欄調整 */
+  form.d-flex input.form-control {
+    flex: 1 1 auto;
+  }
+  
+  /* custom.css */
+
+/* 全站應用 Roboto 字體 */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* 調整搜尋欄的寬度和間距 */
+  .form-search {
+    max-width: 400px; /* 設定最大寬度 */
+  }
+  
+  /* 搜尋欄按鈕調整 */
+  .form-search .btn {
+    white-space: nowrap; /* 防止按鈕文字換行 */
+  }
+  
+  /* 表格文字調整（可選） */
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  
+  /* 標題字體加粗（可選） */
+  h1, h3 {
+    font-weight: 500;
+  }
+  
+  /* custom.css */
+
+/* 調整按鈕的圓角 */
+.btn {
+    border-radius: 0.3rem;
+  }
+  
+  /* 增加表格的行間距 */
+  .table tbody tr {
+    height: 50px;
+  }
+  
+  /* 調整模態框的寬度（可選） */
+  .modal-dialog {
+    max-width: 500px;
+  }
+  
+  /* 調整標題顏色（可選） */
+  h1, h3 {
+    color: #003366; /* 深藍色 */
+  }
+  

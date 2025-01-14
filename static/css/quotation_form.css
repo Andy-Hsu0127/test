@@ -1,0 +1,27 @@
+/* static/css/quotation_form.css */
+
+/* 調整卡片圓角和陰影 */
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 錯誤輸入框的邊框顏色 */
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+/* 按鈕圖示與文字對齊 */
+.btn i {
+    margin-right: 0.25rem;
+}
+
+/* 卡片標題圖示顏色 */
+.card-header i {
+    color: #fff;
+}
+
+/* 提升表單可讀性 */
+.form-label {
+    font-weight: 500;
+}

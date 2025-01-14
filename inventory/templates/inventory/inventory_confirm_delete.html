@@ -1,0 +1,24 @@
+<!-- inventory/templates/inventory/inventory_confirm_delete.html -->
+{% extends "home.html" %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-sm">
+        <div class="card-header bg-danger text-white">
+          <h4 class="mb-0">確認刪除庫存</h4>
+        </div>
+        <div class="card-body">
+          <p class="lead">你確定要刪除庫存 <strong>{{ object }}</strong> 嗎？</p>
+          <form method="post" class="d-flex justify-content-end">
+            {% csrf_token %}
+            <a href="{% url 'inventory:inventory_list' %}" class="btn btn-primary  me-2">取消</a>
+            <button type="submit" class="btn btn-danger">確認刪除</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

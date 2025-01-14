@@ -1,0 +1,24 @@
+<!-- templates/customer/customer_list.html -->
+{% extends "home.html" %}
+
+{% block content %}
+<div class="container mt-5">
+  {% include 'partials/add_customer_button.html' %}
+  
+  <!-- 引入匯入表單 -->
+  <!-- {% include 'partials/import_customers.html' %} -->
+  
+  <div class="card shadow-lg mt-3">
+    <div class="card-body">
+      <!-- 引入搜尋表單 -->
+      {% include 'partials/customer_search_form.html' %}
+      
+      <!-- 引入客戶資料表格 -->
+      {% include 'partials/customer_table.html' %}
+      
+      <!-- 引入分頁導航 -->
+      {% include 'partials/pagination.html' %}
+    </div>
+  </div>
+</div>
+{% endblock %}

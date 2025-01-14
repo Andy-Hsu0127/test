@@ -1,0 +1,65 @@
+<!-- templates/partials/customer_table.html -->
+<div class="table-responsive fs-6">
+  <table class="table table-striped table-hover align-middle fs-6">
+    <thead class="table-dark fs-6">
+      <tr>
+        <!-- 客戶名稱欄位：不可排序 -->
+        <th scope="col">客戶 <i class="bi bi-sort"></i></th>
+        
+        <!-- 代碼欄位：可排序 -->
+        <th scope="col">
+          <a href="?sort=customer_code&order={% if request.GET.order == 'asc' and request.GET.sort == 'customer_code' %}desc{% else %}asc{% endif %}&search={{ search_query }}">
+            代碼
+            {% if current_sort == 'customer_code' %}
+              {% if current_order == 'asc' %}
+                ▲
+              {% else %}
+                ▼
+              {% endif %}
+            {% else %}
+              <i class="bi bi-sort"></i>
+            {% endif %}
+          </a>
+        </th>
+        
+        <!-- 統一編號欄位：不可排序 -->
+        <th scope="col">統一編號 <i class="bi bi-sort"></i></th>
+        
+        <!-- 聯絡欄位：不可排序 -->
+        <th scope="col">聯絡 <i class="bi bi-sort"></i></th>
+        
+        <!-- 電話欄位：不可排序 -->
+        <th scope="col">電話 <i class="bi bi-sort"></i></th>
+        
+        <!-- Email欄位：不可排序 -->
+        <th scope="col">Email <i class="bi bi-sort"></i></th>
+        
+        <!-- 送貨地欄位：不可排序 -->
+        <th scope="col">送貨地 <i class="bi bi-sort"></i></th>
+        
+        <!-- 操作欄位：不可排序 -->
+        <th scope="col">操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for customer in customers %}
+      <tr>
+        <td>{{ customer.customer_name|default:'' }}</td>
+        <td>{{ customer.customer_code|default:'' }}</td>
+        <td>{{ customer.unified_number|default:'' }}</td>
+        <td>{{ customer.contact_person|default:'' }}</td>
+        <td>{{ customer.contact_phone|default:'' }}</td>
+        <td>{{ customer.email|default:'' }}</td>
+        <td>{{ customer.out_address|default:'' }}</td>
+        <td>
+          {% include 'partials/customer_action_buttons.html' with customer=customer %}
+        </td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="8" class="text-center">沒有客戶資料。</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

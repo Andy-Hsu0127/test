@@ -1,0 +1,64 @@
+<!-- quotation_app/templates/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}ERP 系統{% endblock %}</title>
+    <!-- 響應式設計 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 本地 Bootstrap CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- 本地 Font Awesome CSS -->
+    <link href="{% static 'css/all.min.css' %}" rel="stylesheet">
+    <!-- AOS CSS for animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- 自訂 CSS -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="bg-nature">
+    <!-- 引入頂部導航欄 -->
+    {% include 'includes/navbar.html' %}
+
+    <!-- 主內容區域 -->
+    <div class="container mt-5 pt-5 content-container" data-aos="fade-up">
+        <!-- 引入訊息框 -->
+        {% include 'includes/messages.html' %}
+        <!-- 主要內容區塊 -->
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- 返回頂部按鈕 -->
+    <button id="backToTop" title="返回頂部">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- 引入頁腳 -->
+    {% include 'includes/footer.html' %}
+    <div class="container">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} mt-3" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+
+    <!-- 本地 Bootstrap JS -->
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <!-- 本地 Font Awesome JS -->
+    <script src="{% static 'js/all.min.js' %}"></script>
+    <!-- AOS JS for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- 全局登出 URL -->
+    <script>
+        const LOGOUT_URL = "{% url 'logout' %}";
+    </script>
+    <!-- 自訂 JS -->
+    <script src="{% static 'js/main.js' %}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

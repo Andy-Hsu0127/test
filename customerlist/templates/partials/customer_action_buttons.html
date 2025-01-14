@@ -1,0 +1,44 @@
+<!-- templates/partials/customer_action_buttons.html -->
+<div class="btn-group" role="group" aria-label="客戶操作按鈕群組">
+  <!-- 編輯按鈕 -->
+  <a 
+      href="{% url 'customerlist:customer_update' customer.pk %}" 
+      class="btn btn-info btn-sm" 
+      data-bs-toggle="tooltip" 
+      data-bs-placement="top" 
+      title="編輯客戶"
+      aria-label="編輯客戶 {{ customer.customer_name }}"
+  >
+      <i class="bi bi-pencil-square"></i>
+  </a>
+
+  <!-- 刪除表單 -->
+  <form 
+      method="post" 
+      action="{% url 'customerlist:customer_delete' customer.pk %}" 
+      class="d-inline"
+      onsubmit="return confirm('您確定要刪除客戶 {{ customer.customer_name|escapejs }} 嗎？');"
+  >
+      {% csrf_token %}
+      <button 
+          type="submit" 
+          class="btn btn-danger btn-sm" 
+          data-bs-toggle="tooltip" 
+          data-bs-placement="top" 
+          title="刪除客戶"
+          aria-label="刪除客戶 {{ customer.customer_name }}"
+      >
+          <i class="bi bi-trash"></i>
+      </button>
+  </form>
+</div>
+
+<!-- 初始化 Bootstrap 工具提示（確保在頁面底部引入此腳本） -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+  });
+</script>

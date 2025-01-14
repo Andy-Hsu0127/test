@@ -1,0 +1,15 @@
+<!-- templates/partials/customer_search_form.html -->
+<form method="get" class="row g-3 mb-4">
+    <div class="col-md-10">
+      <div class="input-group">
+        <span class="input-group-text" id="search"><i class="bi bi-search"></i></span>
+        <input type="text" name="search" class="form-control" placeholder="搜尋客戶名稱或代碼" aria-label="搜尋客戶名稱或代碼" aria-describedby="search" value="{{ request.GET.search }}">
+      </div>
+    </div>
+    <div class="col-md-2 d-flex">
+      <button type="submit" class="btn btn-primary me-2 btn-sm">
+        <i class="bi bi-search"></i> 搜尋
+      </button>
+    </div>
+  </form>
+  

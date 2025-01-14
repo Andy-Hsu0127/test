@@ -1,0 +1,2141 @@
+Watching for file changes with StatReloader
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\resources.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py changed, reloading.
+Watching for file changes with StatReloader
+The following fields are declared in 'import_id_fields' but are not present in the resource fields: email
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 883, in import_data_inner
+    self._check_import_id_fields(dataset.headers)
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 1169, in _check_import_id_fields
+    raise exceptions.FieldError(
+import_export.exceptions.FieldError: The following fields are declared in 'import_id_fields' but are not present in the resource fields: email
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+匯入失敗：'tuple' object has no attribute 'row'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py", line 131, in post
+    error_messages.append(f"第 {error.row + 1} 行錯誤：{error.error}")
+                                ^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'row'
+The following fields are declared in 'import_id_fields' but are not present in the resource fields: email
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 883, in import_data_inner
+    self._check_import_id_fields(dataset.headers)
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 1169, in _check_import_id_fields
+    raise exceptions.FieldError(
+import_export.exceptions.FieldError: The following fields are declared in 'import_id_fields' but are not present in the resource fields: email
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+'email'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 722, in import_row
+    instance, new = self.get_or_init_instance(instance_loader, row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 186, in get_or_init_instance
+    instance = self.get_instance(instance_loader, row)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\import_export\resources.py", line 172, in get_instance
+    import_id_fields = [self.fields[f] for f in self.get_import_id_fields()]
+                        ~~~~~~~~~~~^^^
+KeyError: 'email'
+匯入失敗：'tuple' object has no attribute 'row'
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py", line 131, in post
+    error_messages.append(f"第 {error.row + 1} 行錯誤：{error.error}")
+                                ^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'row'
+Serving on http://0.0.0.0:2000
+Not Found: /favicon.ico
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /customerlist/
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py", line 40, in customer_list
+    return render(request, 'customerlist/customer_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'customer_update' not found. 'customer_update' is not a valid view function or pattern name.
+Internal Server Error: /customerlist/
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py", line 40, in customer_list
+    return render(request, 'customerlist/customer_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'customer_delete' not found. 'customer_delete' is not a valid view function or pattern name.
+Internal Server Error: /customerlist/1/delete/
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py", line 72, in customer_delete
+    return redirect('customer_list')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'customer_list' not found. 'customer_list' is not a valid view function or pattern name.
+Not Found: /customerlist/1/delete/
+Internal Server Error: /customerlist/create/
+Traceback (most recent call last):
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py", line 50, in customer_create
+    return redirect('customer_list')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JH-Master\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'customer_list' not found. 'customer_list' is not a valid view function or pattern name.
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\views.py changed, reloading.
+Watching for file changes with StatReloader
+Serving on http://0.0.0.0:2000
+Task queue depth is 1
+Not Found: /favicon.ico
+Task queue depth is 1
+Task queue depth is 2
+Not Found: /favicon.ico
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Serving on http://0.0.0.0:2000
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Watching for file changes with StatReloader
+Serving on http://0.0.0.0:2000
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\customerlist\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Serving on http://0.0.0.0:2000
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\quotation_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\quotation_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\JH-Master\Desktop\ERP-System\quotation_project\quotation_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Serving on http://0.0.0.0:2000
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Not Found: /favicon.ico
+Serving on http://0.0.0.0:2000
+Not Found: /favicon.ico
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Task queue depth is 1
+Not Found: /favicon.ico
+Task queue depth is 1
+Task queue depth is 2
+Task queue depth is 1
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Serving on http://0.0.0.0:2000

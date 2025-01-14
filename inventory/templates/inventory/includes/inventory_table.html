@@ -1,0 +1,41 @@
+<!-- inventory/templates/inventory/partials/inventory_table.html -->
+<div class="table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">廠商料號 <i class="bi bi-sort"></i></th>
+                <th scope="col">客戶名稱 <i class="bi bi-sort"></i></th>
+                <th scope="col">總數量 <i class="bi bi-sort"></i></th>
+                <th scope="col">庫存數量 <i class="bi bi-sort"></i></th>
+                <th scope="col">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for inventory in inventories %}
+            <tr>
+                <td>{{ inventory.vendor_part_number }}</td>
+                <td>{{ inventory.customer.customer_name }}</td>
+                <td>{{ inventory.total_quantity }}</td>
+                <td>{{ inventory.inventory_quantity }}</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="操作按鈕群組">
+                        <a href="{% url 'inventory:inventory_detail' inventory.pk %}" class="btn btn-info btn-sm" title="查看">
+                            <i class="bi bi-eye"></i>
+                        </a>
+                        <a href="{% url 'inventory:inventory_update' inventory.pk %}" class="btn btn-warning btn-sm" title="編輯">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <a href="{% url 'inventory:inventory_delete' inventory.pk %}" class="btn btn-danger btn-sm" title="刪除" onclick="return confirm('確定要刪除此庫存嗎？');">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="5" class="text-center">沒有庫存資料。</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

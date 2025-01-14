@@ -1,0 +1,12 @@
+<!-- customerlist/templates/customerlist/customer_form.html -->
+{% extends 'home.html' %}
+
+{% block content %}
+<h2>{% if form.instance.pk %}編輯客戶{% else %}新增客戶{% endif %}</h2>
+<form method="post" class="needs-validation" novalidate>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">{% if form.instance.pk %}更新{% else %}新增{% endif %}</button>
+    <a href="{% url 'customerlist:customer_list' %}" class="btn btn-secondary">取消</a>
+</form>
+{% endblock %}

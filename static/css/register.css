@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background: #28a745;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: none;
+}
+
+.btn-success {
+    border-radius: 10px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.link-login {
+    color: #28a745;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link-login:hover {
+    color: #1e7e34;
+    text-decoration: underline;
+}
+
+.help-text {
+    order: 2;
+}
+
+.error-text {
+    order: 3;
+}
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+}

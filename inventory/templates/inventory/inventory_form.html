@@ -1,0 +1,102 @@
+<!-- inventory/templates/inventory/inventory_form.html -->
+{% extends "home.html" %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+          <h4 class="mb-0">
+            {% if form.instance.pk %}
+              編輯庫存
+            {% else %}
+              新增庫存
+            {% endif %}
+          </h4>
+          <a href="{% url 'inventory:inventory_list' %}" class="btn btn-light btn-sm">
+            <i class="bi bi-arrow-left"></i> 返回列表
+          </a>
+        </div>
+        <div class="card-body">
+          <form method="post" novalidate>
+            {% csrf_token %}
+            <!-- 廠商料號 -->
+            <div class="mb-3">
+              <label for="{{ form.vendor_part_number.id_for_label }}" class="form-label">廠商料號</label>
+              <input type="text" class="form-control {% if form.vendor_part_number.errors %}is-invalid{% endif %}" id="{{ form.vendor_part_number.id_for_label }}" name="{{ form.vendor_part_number.html_name }}" value="{{ form.vendor_part_number.value|default_if_none:'' }}" placeholder="輸入廠商料號">
+              {% if form.vendor_part_number.errors %}
+                <div class="invalid-feedback">
+                  {{ form.vendor_part_number.errors.as_text }}
+                </div>
+              {% endif %}
+            </div>
+
+            <!-- 客戶名稱 -->
+            <div class="mb-3">
+              <label for="{{ form.customer.id_for_label }}" class="form-label">客戶名稱</label>
+              <select class="form-select {% if form.customer.errors %}is-invalid{% endif %}" id="{{ form.customer.id_for_label }}" name="{{ form.customer.html_name }}">
+                <option value="">選擇客戶</option>
+                {% for customer in form.customer.field.queryset %}
+                  <option value="{{ customer.pk }}" {% if customer.pk == form.customer.value %}selected{% endif %}>{{ customer.customer_name }}</option>
+                {% endfor %}
+              </select>
+              {% if form.customer.errors %}
+                <div class="invalid-feedback">
+                  {{ form.customer.errors.as_text }}
+                </div>
+              {% endif %}
+            </div>
+
+            <!-- 總數量 -->
+            <div class="mb-3">
+              <label for="{{ form.total_quantity.id_for_label }}" class="form-label">總數量</label>
+              <input type="number" class="form-control {% if form.total_quantity.errors %}is-invalid{% endif %}" id="{{ form.total_quantity.id_for_label }}" name="{{ form.total_quantity.html_name }}" value="{{ form.total_quantity.value|default_if_none:'' }}" placeholder="輸入總數量" min="0">
+              {% if form.total_quantity.errors %}
+                <div class="invalid-feedback">
+                  {{ form.total_quantity.errors.as_text }}
+                </div>
+              {% endif %}
+            </div>
+
+            <!-- 庫存數量 -->
+            <div class="mb-3">
+              <label for="{{ form.inventory_quantity.id_for_label }}" class="form-label">庫存數量</label>
+              <input type="number" class="form-control {% if form.inventory_quantity.errors %}is-invalid{% endif %}" id="{{ form.inventory_quantity.id_for_label }}" name="{{ form.inventory_quantity.html_name }}" value="{{ form.inventory_quantity.value|default_if_none:'' }}" placeholder="輸入庫存數量" min="0">
+              {% if form.inventory_quantity.errors %}
+                <div class="invalid-feedback">
+                  {{ form.inventory_quantity.errors.as_text }}
+                </div>
+              {% endif %}
+            </div>
+
+            <!-- 備註 -->
+            <div class="mb-3">
+              <label for="{{ form.notes.id_for_label }}" class="form-label">備註</label>
+              <textarea class="form-control {% if form.notes.errors %}is-invalid{% endif %}" id="{{ form.notes.id_for_label }}" name="{{ form.notes.html_name }}" rows="3" placeholder="輸入備註">{{ form.notes.value|default_if_none:'' }}</textarea>
+              {% if form.notes.errors %}
+                <div class="invalid-feedback">
+                  {{ form.notes.errors.as_text }}
+                </div>
+              {% endif %}
+            </div>
+
+            <!-- 提交按鈕 -->
+            <div class="d-flex justify-content-end">
+              <a href="{% url 'inventory:inventory_list' %}" class="btn btn-primary  me-2">
+                <i class="bi bi-x-circle"></i> 取消
+              </a>
+              <button type="submit" class="btn btn-primary">
+                <i class="bi bi-save"></i> 儲存
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 引入 Bootstrap Icons（可選，用於美化按鈕圖示） -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+{% endblock %}

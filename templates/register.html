@@ -1,0 +1,42 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block title %}註冊 - 電子管理系統{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card shadow-lg" style="width: 100%; max-width: 500px;">
+        <div class="card-header">
+            <h2 class="card-title mb-0">註冊</h2>
+        </div>
+        <div class="card-body">
+            <form method="post" novalidate>
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class="mb-4 field-container">
+                        {{ field.label_tag }}
+                        {{ field }}
+                        {% if field.help_text %}
+                            <small class="form-text text-muted help-text">{{ field.help_text }}</small>
+                        {% endif %}
+                        {% if field.errors %}
+                            {% for error in field.errors %}
+                                <div class="text-danger error-text">{{ error }}</div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                {% endfor %}
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-success">註冊</button>
+                </div>
+            </form>
+            <div class="mt-4 text-center">
+                已經有帳號了？ <a href="{% url 'login' %}" class="link-login">登入</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

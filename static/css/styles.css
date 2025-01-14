@@ -1,0 +1,271 @@
+/* quotation_app/static/css/styles.css */
+
+/* 側邊欄樣式 */
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar-wrapper {
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 0;
+}
+
+/* 側邊欄連結樣式 */
+.list-group-item {
+    border: none;
+    padding: 15px 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+/* 主要內容區域 */
+.container-fluid {
+    padding: 20px;
+}
+
+/* 卡片樣式 */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* 頁腳樣式 */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+/* 其他自訂樣式 */
+.primary-text {
+    color: #007bff !important;
+}
+
+.second-text {
+    color: #6c757d !important;
+}
+
+/* styles.css */
+
+/* 引入 Google 字體（可選） */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #343a40; /* 深灰色文字 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-nature::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明白色覆蓋層 */
+    z-index: 0;
+}
+
+.container.content-container {
+    position: relative;
+    z-index: 1; /* 使內容區域位於覆蓋層之上 */
+    background-color: rgba(248, 249, 250, 0.95); /* 淺灰色背景 */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container.content-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* 自訂按鈕樣式 */
+.btn-primary, .btn-secondary {
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #2C3E50; /* 深藍色主色調 */
+    border-color: #2C3E50;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #1A252F;
+    border-color: #1A252F;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #95A5A6; /* 中灰色調 */
+    border-color: #95A5A6;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #7F8C8D;
+    border-color: #7F8C8D;
+    transform: scale(1.05);
+}
+
+/* 自訂頁腳連結 */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #F1C40F; /* 懸停時變為金黃色 */
+}
+
+/* 調整訊息框的背景顏色 */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+/* 自訂表單元件 */
+input, textarea, select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #2C3E50;
+    box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25);
+}
+
+/* 自訂導航欄下拉選單動畫 */
+.dropdown-menu {
+    transition: all 0.3s ease;
+}
+
+/* 調整導航欄文字顏色 */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ECF0F1;
+}
+
+/* 調整頁腳文字 */
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer p, footer ul {
+    font-size: 14px;
+}
+
+/* 添加滾動到頂部按鈕 */
+#backToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    background-color: #2C3E50;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #1A252F;
+    transform: scale(1.1);
+}
+
+
+/* static/css/styles.css */
+
+/* 自訂卡片背景色 */
+.custom-card {
+    background-color: #f8f9fa; /* 淺灰色背景 */
+  }
+  
+  /* 自訂表單標籤顏色 */
+  .custom-form-label {
+    color: #495057; /* 深灰色 */
+    font-weight: 600;
+  }
+  
+  /* 自訂按鈕顏色 */
+  .btn-custom {
+    background-color: #6c757d; /* 自訂灰色 */
+    color: white;
+  }
+  
+  .btn-custom:hover {
+    background-color: #5a6268; /* 深灰色 */
+    color: white;
+  }
+  
+  /* 在您的主 CSS 檔案中添加 */
+.btn {
+    transition: transform 0.2s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+  }
+  
